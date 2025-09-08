@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Study Hub 📚</h1>
+
+    <section id="quiz-section">
+        <h2>Quick Quiz</h2>
+        <div id="quiz-container"></div>
+        <button id="next-btn">Next Question</button>
+        <p id="quiz-score"></p>
+    </section>
+
+    <section id="game-section">
+        <h2>Math Game 🎮</h2>
+        <p>Solve the sum:</p>
+        <p id="game-question"></p>
+        <input type="number" id="game-answer">
+        <button id="submit-answer">Submit</button>
+        <p id="game-feedback"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
